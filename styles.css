@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+   background-color: #141414;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to bottom,#080808, #141414);
+   
+}
+
+.logo {
+    padding-top: 1.4em;
+    padding-left: 3em;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+}
+
+.card-users {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user1,
+.user2,
+.user3,
+.user4,
+.user5 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+    cursor: pointer;
+
+}
+
+
+.img {
+    
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.img:hover {
+    
+    border: 3px solid #FFFFFF;
+}
+
+.title {
+    font-size: 3.0vw;
+    color:#FFFFFF;
+    
+}
+
+.small {
+  padding: 0.5em;
+  font-size: 1.5vw;
+  color: #808080;
+}
+
+.small:hover {
+    color: #FFFFFF;
+}
+
+.div-button {
+    margin-top: 2.0em;
+}
+
+button {
+    font-size: 1.2vw;
+    background-color: #141414;
+    border: 1px solid  grey;
+    color: grey;
+    padding: 0.4em;
+    width: 14em;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
